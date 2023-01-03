@@ -1,21 +1,27 @@
 import "./App.css";
 import "./bootstrap4.min.css";
+import SearchBar from './SearchBar'
+import Dropdown from "./SearchBar/Dropdown"
+
+import { NavLink } from "react-router-dom";
 
 export default function BetterNav() {
+
+  // const toggleBrowse = () => 
+
   return (
-    <nav className="flex navbar-light bg-light">
+    <nav className="navbar-light bg-light">
 
-      <a className="flex-none navbar-brand">oClip</a>
+      {/* app wrapper width */}
+      <div className="container mx-auto flex py-3">
 
-      <div className="grow input-group input-group-sm">
-        <input className="flex-grow form-control" type="search" placeholder="Search" aria-label="Search" />
+      <NavLink to="/" className="flex-none navbar-brand">oClip</NavLink>
 
-        <div className="input-group-append">
-          <button className="btn btn-outline-primary" type="submit">Search</button>
-        </div>
+        <SearchBar />
+
+        {/* <button className="flex-none btn btn-primary" onClick={toggleBrowse}>Browse</button> */}
+        <Dropdown />
       </div>
-
-      <button className="flex-none btn btn-primary">Browse</button>
 
     </nav>
   );
