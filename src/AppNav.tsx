@@ -22,7 +22,7 @@ export default function AppNav() {
 
         <SearchBar />
 
-        <button className="flex-none btn btn-primary" onClick={openBrowse}>Add Content</button>
+        <button className="flex-none btn btn-primary" onClick={openBrowse}>Full Menu</button>
 
         {/* <button className="flex-none btn btn-info mx-1" onClick={openBrowse}>Social (5)</button> */}
 
