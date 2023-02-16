@@ -17,12 +17,13 @@ export default function FavBar() {
       {/* app wrapper width */}
       <div className="container mx-auto py-1">
 
-        <div className="flex justify-between">
-        {/* <div className="flex justify-end"> */}
+        <div className="flex justify-end">
 
-          <NavLink  to="/friends">login / create account</NavLink>
-          <span></span>
-          <NavLink to="/friends">about</NavLink>
+          {/* <NavLink to="/friends">extensions</NavLink> */}
+          {/* <span></span> */}
+          <NavLink  to="/friends" className="mr-10">login or signup</NavLink>
+          <NavLink to="/friends">create server</NavLink>
+
 
         </div>
 

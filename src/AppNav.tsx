@@ -17,12 +17,13 @@ export default function AppNav() {
       {/* app wrapper width */}
       <div className="container mx-auto flex py-3">
 
-        {/* <NavLink to="/" className="flex-none navbar-brand">oClip</NavLink> */}
+        {/* <NavLink to="/" className="flex-none navbar-brand">☰</NavLink> */}
+        {/* <button className="flex-none btn" onClick={openBrowse}>☰</button> */}
         <button className="flex-none btn btn-info" onClick={openBrowse}>oClip</button>
 
         <SearchBar />
 
-        <button className="flex-none btn btn-primary" onClick={openBrowse}>Full Menu</button>
+        <button className="flex-none btn btn-primary" onClick={openBrowse}>My Library</button>
 
         {/* <button className="flex-none btn btn-info mx-1" onClick={openBrowse}>Social (5)</button> */}
 

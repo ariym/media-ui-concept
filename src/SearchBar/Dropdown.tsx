@@ -44,7 +44,12 @@ export default function BrowseModal({showBrowse, toggleBrowse}:{showBrowse:boole
                     
                     
                     
-                    <p>hey</p>
+                    <p>oclip logo should open up home page (default: reccomended feed page)</p>
+                    <p>as well as sidebar with top options: a. for you, b. most recent, c. trending</p>
+                    <p>rest of sidebar is list of communities you've joined (with pinned ones at top of list)</p>
+                    <p>if a community is selected it replaces the "oclip" word in the AppNav with the community name and stays at the top next to the oclip logo</p>
+
+                    <p>My Libary opens up the user's library/saved stuff/programs</p>
 
 
 
